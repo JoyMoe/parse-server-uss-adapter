@@ -27,6 +27,7 @@ function optionsFromArguments(args) {
         if (otherOptions) {
             options.bucketPrefix = otherOptions.bucketPrefix;
             options.directAccess = otherOptions.directAccess;
+            options.baseUrl = otherOptions.baseUrl;
         }
     } else {
         options = Object.assign({}, serviceNameOrOptions);
