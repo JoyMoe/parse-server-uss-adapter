@@ -1,6 +1,6 @@
 {
   "name": "parse-server-uss-adapter",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "parse-server adapter for UPYUN Storage Service",
   "main": "index.js",
   "author": "Chino Chang <chino@joymoe.com>",
