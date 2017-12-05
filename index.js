@@ -61,7 +61,7 @@ function USSAdapter() {
     this._bucketPrefix = options.bucketPrefix;
     this._directAccess = options.directAccess;
 
-    let service = new upyun.Service(options.serviceName, options._operatorName, options._operatorPassword);
+    let service = new upyun.Service(options.serviceName, options.operatorName, options.operatorPassword);
     this._ussClient = new upyun.Client(service);
 }
 
