@@ -1,11 +1,17 @@
 {
   "name": "parse-server-uss-adapter",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "parse-server adapter for UPYUN Storage Service",
+  "keywords": [
+    "parse",
+    "upyun",
+    "又拍云"
+  ],
   "main": "index.js",
   "author": "Chino Chang <chino@joymoe.com>",
   "license": "MIT",
   "dependencies": {
     "upyun": "^3.3.2"
-  }
+  },
+  "repository": "https://github.com/JoyMoe/parse-server-uss-adapter.git"
 }
